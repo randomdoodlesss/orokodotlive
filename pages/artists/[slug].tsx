@@ -23,7 +23,7 @@ export default function Artist({ artist, relatedShows, preview }: ArtistProps) {
       withBackButton
       title={name}
     >
-      <TitleBox boxText="About the artist" title={name} slug={`news/${slug}`}>
+      <TitleBox boxText="About the artist" title={name} slug={`artists/${slug}`}>
         <div className="container max-w-5xl mx-auto">
           <p className="hidden md:block mb-4 ml-0.5 font-sans font-semibold tracking-wide text-xl lg:text-2xl">
             About the artist
